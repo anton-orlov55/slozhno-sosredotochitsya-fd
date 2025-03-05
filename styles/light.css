@@ -5,6 +5,11 @@
 */
 
 :root.theme-light {
+  --accent-color-base: #353430;
+  --accent-color-first: #353430;
+  --accent-color-second: #353430;
+  --accent-color-third: #ffc2e6;
+  --accent-color-shadow: #ff8dcb;
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
@@ -13,4 +18,32 @@
 
 .theme-light .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
+}
+
+.theme-light .header__theme-menu-item:first-child {
+  border: none;
+}
+
+.theme-light .elem-dark-rec::after {
+  content: "";
+  width: 9px;
+  height: 9px;
+  background-color: #ff0070;
+  position: absolute;
+  top: 6px;
+  left: 41px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 1 1 #ff0070;
+  display: none;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    /* Дублируем переменные светлой темы */
+    --accent-color-base: #353430;
+    --accent-color-first: #353430;
+    --accent-color-second: #353430;
+    --accent-color-third: #ffc2e6;
+    --accent-color-shadow: #ff8dcb;
+  }
 }
