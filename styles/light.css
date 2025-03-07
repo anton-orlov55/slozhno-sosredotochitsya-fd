@@ -6,22 +6,17 @@
 
 :root.theme-light {
   --accent-color-base: #353430;
-  --accent-color-first: #353430;
-  --accent-color-second: #353430;
-  --accent-color-third: #ffc2e6;
+  --accent-color-font-border: #353430;
+  --accent-color-font-light: #353430;
+  --accent-color-font-title: #ffc2e6;
   --accent-color-shadow: #ff8dcb;
+  --accent-color-background: #fff1f7;
+  --accent-color--border-opacity: rgba(50, 49, 45, 0.4);
+
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-}
-
-.theme-light .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
-}
-
-.theme-light .header__theme-menu-item:first-child {
-  border: none;
 }
 
 .theme-light .elem-dark-rec::after {
@@ -41,9 +36,11 @@
   :root {
     /* Дублируем переменные светлой темы */
     --accent-color-base: #353430;
-    --accent-color-first: #353430;
-    --accent-color-second: #353430;
-    --accent-color-third: #ffc2e6;
+    --accent-color-font-border: #353430;
+    --accent-color-font-light: #353430;
+    --accent-color-font-title: #ffc2e6;
     --accent-color-shadow: #ff8dcb;
+    --accent-color-background: #fff1f7;
+    --accent-color--border-opacity: rgba(50, 49, 45, 0.4);
   }
 }

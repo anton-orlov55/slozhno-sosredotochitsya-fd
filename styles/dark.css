@@ -6,10 +6,11 @@
 
 :root.theme-dark {
   --accent-color-base: #ff0070;
-  --accent-color-first: #000028;
-  --accent-color-second: #f1b2ce;
-  --accent-color-third: #db00ff;
+  --accent-color-font-border: #000028;
+  --accent-color-font-light: #f1b2ce;
+  --accent-color-font-title: #db00ff;
   --accent-color-shadow: #ff0070;
+  --accent-color-background: #000028;
 
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
@@ -18,17 +19,15 @@
 }
 
 .theme-dark .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
-}
-
-.theme-dark .page {
-  background-image: url(/images/cover-image-dark.png);
+  background-image: url(../images/cover-image-dark.png);
 }
 
 .theme-dark .elem-dark-rec {
-  font-family: "IBM Plex mono", Helvetica, sans-serif;
+  display: flex;
+  font-family: "IBM Plex mono", Monospace, Helvetica, sans-serif;
   font-size: 18px;
   font-weight: normal;
+  color: #ff0070;
   position: absolute;
   text-transform: uppercase;
   display: flex;
@@ -45,5 +44,5 @@
   top: 6px;
   left: 41px;
   border-radius: 50%;
-  box-shadow: 1px 1px 1 1 #ff0070;
+  box-shadow: 0px 0px 4px 2px #ff0070;
 }
