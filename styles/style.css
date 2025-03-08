@@ -20,8 +20,8 @@
 .decorated-zone {
   height: 100vh;
   position: relative;
-  margin: 10px 10px 10px 10px;
-  max-height: 648px ;
+  margin: 0px 10px 0px 10px;
+  
  
 }
 
@@ -34,6 +34,7 @@
   right: 0px;
   border-top: 1px solid var(--accent-color-base);
   border-right: 1px solid var(--accent-color-base);
+  margin-top: 10px;
 }
 
 .decorated-zone::after {
@@ -42,7 +43,7 @@
   height: 25px;
   display: flex;
   position: absolute;
-  bottom: 0px;
+  bottom: 10px;
   border-left: 1px solid var(--accent-color-base);
   border-bottom: 1px solid var(--accent-color-base);
 }
@@ -60,7 +61,7 @@
 .header__theme-menu-list {
   display: flex;
   flex-direction: column;
-  margin: 65px 0px 0px 0px;
+  margin: 75px 0px 0px 0px;
 }
 
 .header__theme-menu-button {
@@ -109,7 +110,7 @@
 .main-option-1 {
   display: grid;
   grid-template-columns: 1fr;
-  margin: 30px 10px 0px 10px;
+  margin: 20px 10px 0px 10px;
   gap: 20px;
 }
 
