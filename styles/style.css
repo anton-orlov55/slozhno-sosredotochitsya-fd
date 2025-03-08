@@ -1,8 +1,8 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
-  max-width: 668px;
-  min-width: 375px;
+  
+  
   background-position: center;
   background-image: url(../images/cover-image-light.png);
   background-attachment: fixed;
