@@ -1,8 +1,11 @@
 /*
+  
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
-
+/*
+C праздником, женским днем!
+*/
 :root {
   --accent-color-base: #353430;
   --accent-color-font-border: #353430;
@@ -18,9 +21,9 @@
     max-width: 1024px;
   }
 
-  .base-information {
-    padding: 20px 20px 20px 20px;
-    min-height: 1024px;
+  .decorated-zone {
+    margin: 20px 20px 20px 20px;
+    max-height: 984px ;
   }
 
   .header__theme-menu-list {
@@ -148,14 +151,11 @@
     /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
   }
 
-  .base-information {
-    padding: 20px 20px 20px 20px;
-    min-height: 768px;
-  }
-
   .decorated-zone {
-    position: relative;
+    margin: 20px 20px 20px 20px;
+    max-height: 728px ;
   }
+  
 
   .header__theme-menu {
     margin: 0px 377px 0px 377px;
