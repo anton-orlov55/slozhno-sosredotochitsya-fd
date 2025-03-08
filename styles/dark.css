@@ -22,8 +22,6 @@
   background-image: url(../images/cover-image-dark.png);
 }
 
-
-
 .theme-dark .elem-dark-rec {
   display: flex;
   font-family: "IBM Plex mono", Monospace, Helvetica, sans-serif;
