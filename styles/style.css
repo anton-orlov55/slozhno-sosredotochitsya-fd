@@ -107,12 +107,14 @@
   font-size: 18px;
   font-weight: normal;
   color: var(--accent-color-base);
+  justify-self: end;
+  align-self: center;
+  margin-top: 10px;
 }
 
 .header__theme-menu-list {
   display: flex;
   flex-direction: column;
-  margin: 75px 0px 0px 0px;
 }
 
 .header__theme-menu-button {
@@ -312,19 +314,13 @@ img {
   }
 
   .header__theme-menu-list {
-    display: flex;
-    flex-direction: column;
-    margin: 192px 0px 0px 0px;
+    margin-top: 20px;
   }
 
   .header__theme-menu {
     margin: 0px 0px 0px 0px;
     gap: 10px;
     justify-content: end;
-  }
-
-  .header__theme-menu-item {
-    margin-bottom: 10px;
   }
 
   .hero-title {
@@ -429,15 +425,12 @@ img {
   }
 
   .header__theme-menu {
-    margin: 0px 377px 0px 377px;
-    justify-content: space-between;
+    align-self: start;
+    justify-self: center;
   }
 
   .header__theme-menu-list {
-    display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    margin: 20px 0px 0px 0px;
   }
 
   .header__theme-menu-item {
