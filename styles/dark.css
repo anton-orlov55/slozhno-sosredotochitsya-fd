@@ -11,53 +11,10 @@
   --accent-color-font-title: #db00ff;
   --accent-color-shadow: #ff0070;
   --accent-color-background: #000028;
-
+  --accent-color--border-opacity: rgba(255, 0, 112, 0.4);
+ 
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
 }
-
-.theme-dark .page {
-  background-image: url(../images/cover-image-dark.png);
-}
-
-.theme-dark .elem-dark-rec {
-  display: flex;
-  font-family: "IBM Plex mono", Monospace, Helvetica, sans-serif;
-  font-size: 18px;
-  font-weight: normal;
-  color: #ff0070;
-  position: absolute;
-  text-transform: uppercase;
-  display: flex;
-  right: 28px;
-  top: 3px;
-}
-
-.theme-dark .elem-dark-rec::before{
-  content: "Rec";
-  width: 19px;
-  height: 19px;
- 
-  position: absolute;
-  top: 0px;
-  right: 15px;
-  display: flex;
-  
-}
-
-
-.theme-dark .elem-dark-rec::after {
-  content: "";
-  width: 9px;
-  height: 9px;
-  background-color: #ff0070;
-  position: absolute;
-  top: 6px;
-  left: 10px;
-  border-radius: 50%;
-  box-shadow: 0px 0px 4px 2px #ff0070;
-}
-
-

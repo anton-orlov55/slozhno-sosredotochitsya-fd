@@ -19,19 +19,6 @@
   */
 }
 
-.theme-light .elem-dark-rec::after {
-  content: "";
-  width: 9px;
-  height: 9px;
-  background-color: #ff0070;
-  position: absolute;
-  top: 6px;
-  left: 41px;
-  border-radius: 50%;
-  box-shadow: 1px 1px 1 1 #ff0070;
-  display: none;
-}
-
 @media (prefers-color-scheme: light) {
   :root {
     /* Дублируем переменные светлой темы */
